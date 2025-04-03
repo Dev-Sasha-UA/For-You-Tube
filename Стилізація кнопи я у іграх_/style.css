@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e0e0e;
+}
+.btn{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+
+
+
+/* = basic button styles = */
+.btn{
+  cursor: pointer;
+  color: green;
+  background-color: #ffa500;
+  transition: 0.5s;
+}
+/* = Hover Styles = */
+.btn:hover{
+  transform: translate(0, -0.5rem);
+  box-shadow: 0 0.5rem #ff8c00;
+}
+/* = styles when pressed = */
+.btn:active{
+  transform: translate(0, -0.1rem);
+  box-shadow: 0 0.1rem #ff8c00;
+}
